@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.stat-card {
+  @apply p-4 bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-200 transform hover:-translate-y-2;
+}
+
+.team-card {
+  @apply p-4 bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-200 transform hover:-translate-y-2;
+}
+
+.feature-card {
+  @apply p-4 bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-200 transform hover:-translate-y-2;
+}
